@@ -1,0 +1,6 @@
+(library
+ (name hardcaml_day6_test)
+ (libraries core hardcaml hardcaml_day6 hardcaml_step_testbench.effectful hardcaml_waveterm)
+ (inline_tests)
+ (preprocess
+  (pps ppx_hardcaml ppx_jane ppx_expect)))
