@@ -1,27 +1,26 @@
-(* interface for day 6 math accumulator *)
+(* interface for day 6 trash compactor - hardware parses grid and applies operators *)
 
 open! Hardcaml
-
-val result_bits : int
 
 module I : sig
   type 'a t =
     { clock : 'a
     ; clear : 'a
     ; start : 'a
-    ; number : 'a
-    ; number_valid : 'a
-    ; is_multiply : 'a
-    ; problem_done : 'a
-    ; all_done : 'a
+    ; grid_byte : 'a
+    ; grid_valid : 'a
+    ; grid_done : 'a
+    ; width : 'a
+    ; height : 'a
+    ; is_part2 : 'a
     }
   [@@deriving hardcaml]
 end
 
 module O : sig
   type 'a t =
-    { total : 'a
-    ; result_valid : 'a
+    { result : 'a
+    ; done_ : 'a
     }
   [@@deriving hardcaml]
 end
