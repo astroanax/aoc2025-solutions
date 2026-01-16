@@ -1,0 +1,36 @@
+# OCaml / Dune build artifacts
+_build/
+*.install
+.merlin
+*.byte
+*.native
+*.cmo
+*.cmi
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.o
+*.a
+
+# Rust build artifacts
+target/
+*.rs.bk
+
+# Compiled binaries
+*.exe
+main
+
+# Editor files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Opam local switch
+_opam/
