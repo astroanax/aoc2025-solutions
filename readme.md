@@ -5,6 +5,8 @@ So far, I could only do 6 of them, (I began too late in jan 2026)
 
 [This](https://ocamlstreet.gitbook.io/hardcaml-wiki/learn-hardcaml-in-half-an-hour#sequential-logic-memory) was a very helpful guide, and I found this [repo](https://github.com/MarcusCemes/advent-of-code-2025) where they tried solving in a hardware language too. I took some of them as inspiration.
 
+If you're from jane street, use [this](https://deepwiki.com/astroanax/aoc2025-solutions/) to get nice cute diagrams of the state machines and all, bro
+
 ### Rust solutions
 
 for running the rust solutions -
